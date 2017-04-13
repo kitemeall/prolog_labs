@@ -1,0 +1,1 @@
+square_user_enter :- write("X = "), read(X), (X \= "end" -> X1 is X*X, nl, square_user_enter).

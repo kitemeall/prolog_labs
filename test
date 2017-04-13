@@ -1,0 +1,1 @@
+ ?- parent(X, "Oleg"), format('~s', [X]).
